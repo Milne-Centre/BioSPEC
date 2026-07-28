@@ -68,15 +68,19 @@ Option A: Via GitHub Web Interface (Easiest)
 Option B: Via Command Line / Git
 
 1. Clone the repository and create a new feature branch:
+   ```bash
    git checkout -b add-molecule-nh3
+   ```
 
-2. Create your .json file inside the "data/" folder.
-3. Commit and push your changes:
+3. Create your .json file inside the "data/" folder.
+4. Commit and push your changes:
+   ```bash
    git add data/NH3.json
    git commit -m "Add spectroscopic record for NH3"
    git push origin add-molecule-nh3
+   ```
 
-4. Open a Pull Request (PR) on GitHub against the main branch.
+6. Open a Pull Request (PR) on GitHub against the main branch.
 
 --------------------------------------------------------------------------------
 
@@ -85,4 +89,4 @@ Option B: Via Command Line / Git
 Once your Pull Request is submitted, GitHub Actions will automatically run validate_data.py using Pydantic to verify your file.
 
 * Passing Check [PASS]: Your JSON syntax is valid and meets all schema requirements. A reviewer will merge your pull request, triggering the automated index build and site deployment.
-* * Failing Check [FAIL]: Validation failed. Click "Details" next to the failed check to inspect the error log (e.g., missing field, incorrect data type, or syntax error). Edit your file on your branch to fix the issue--the validator will re-test automatically upon save! 
+* Failing Check [FAIL]: Validation failed. Click "Details" next to the failed check to inspect the error log (e.g., missing field, incorrect data type, or syntax error). Edit your file on your branch to fix the issue--the validator will re-test automatically upon save! 

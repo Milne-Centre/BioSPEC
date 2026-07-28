@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spectroscopic Database Prototype</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        td.details-control { text-align: center; cursor: pointer; }
+        .sub-table { margin: 10px 0 10px 50px; border-collapse: collapse; width: 90%; }
+        .sub-table th, .sub-table td { border: 1px solid #ddd; padding: 6px; font-size: 13px; text-align: left; }
+        .sub-table th { background-color: #f2f2f2; }
+        .entry-details { margin-left: 50px; margin-bottom: 10px; font-size: 14px; }
+        
+        /* Force ALL DataTables rows (odd and even) to pure white */
+        table.dataTable tbody tr,
+        table.dataTable tbody tr.odd,
+        table.dataTable tbody tr.even {
+            background-color: #ffffff !important;
+        }
+
+        /* Hover effect for standard/computational rows */
+        table.dataTable tbody tr:hover,
+        table.dataTable tbody tr.odd:hover,
+        table.dataTable tbody tr.even:hover {
+            background-color: #f8f9fa !important;
+        }
+
+        /* Soft green highlight reserved EXCLUSIVELY for experimental rows */
+        table.dataTable tbody tr.experimental-row,
+        table.dataTable tbody tr.experimental-row.odd,
+        table.dataTable tbody tr.experimental-row.even {
+            background-color: #e8f5e9 !important;
+        }
+
+        /* Hover effect for experimental rows */
+        table.dataTable tbody tr.experimental-row:hover,
+        table.dataTable tbody tr.experimental-row.odd:hover,
+        table.dataTable tbody tr.experimental-row.even:hover {
+            background-color: #c8e6c9 !important;
+        }
+
+        /* Badges for Source and Methods */
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            font-size: 11px;
+            font-weight: bold;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .badge-exp {
+            background-color: #2e7d32;
+            color: #ffffff;
+        }
+        .badge-comp {
+            background-color: #1976d2;
+            color: #ffffff;
+        }
+        .badge-other {
+            background-color: #6c757d;
+            color: #ffffff;
+        }
+        .method-tag {
+            font-family: monospace;
+            background-color: #f5f5f5;
+            padding: 2px 6px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Molecular Spectroscopic Database</h2>
+    <table id="molecule-table" class="cell-border hover" style="width:100%">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Formula</th>
+                <th>Isotopologue</th>
+                <th>Name</th>
+                <th>State</th>
+                <th>Source</th>
+                <th>Method / Level of Theory</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        function formatValueWithDOI(val, unc, uncName, doi, defaultDoi, decimals = 2) {
+            if (val === null || val === undefined) {
+                return '—';
+            }
+            let text = (typeof val === 'number') ? val.toFixed(decimals) : val;
+            if (unc !== null && unc !== undefined) {
+                text += ` ± ${unc.toFixed(decimals)}`;
+            }
+            let targetDoi = doi || defaultDoi;
+            if (targetDoi) {
+                text += ` <a href="https://doi.org/${targetDoi}" target="_blank" title="Source DOI: ${targetDoi}" style="font-size: 11px; text-decoration: none;">[ref]</a>`;
+            }
+            return text;
+        }
+
+        function formatDetails(d) {
+            if (!d) return '<div>No data available</div>';
+
+            let headerHtml = `<div class="entry-details">`;
+            
+            if (d.label) {
+                headerHtml += `<strong>Label:</strong> ${d.label}<br>`;
+            }
+
+            let defaultDoi = d.reference_doi;
+
+            if (d.source_type === 'computation' && d.computation_metadata) {
+                let meta = d.computation_metadata;
+                headerHtml += `<strong>Type:</strong> Computation | ` +
+                            `<strong>Method:</strong> ${meta.method || 'N/A'} | ` +
+                            `<strong>Basis Set:</strong> ${meta.basis_set || 'N/A'}` +
+                            (meta.software ? ` | <strong>Software:</strong> ${meta.software}` : '') +
+                            (meta.scaling_factor ? ` | <strong>Scaling Factor:</strong> ${meta.scaling_factor}` : '');
+            } else if (d.source_type === 'experiment') {
+                headerHtml += `<strong>Type:</strong> Experiment`;
+                if (defaultDoi) {
+                    headerHtml += ` | <strong>Primary Reference DOI:</strong> <a href="https://doi.org/${defaultDoi}" target="_blank">${defaultDoi}</a>`;
+                }
+            } else {
+                headerHtml += `<strong>Type:</strong> ${d.source_type ? (d.source_type.charAt(0).toUpperCase() + d.source_type.slice(1)) : 'Unspecified'}`;
+                if (defaultDoi) {
+                    headerHtml += ` | <strong>Reference DOI:</strong> <a href="https://doi.org/${defaultDoi}" target="_blank">${defaultDoi}</a>`;
+                }
+            }
+            headerHtml += `</div>`;
+
+            let modesHtml = '<table class="sub-table">' +
+                '<tr>' +
+                    '<th>Mode ID</th>' +
+                    '<th>Label / Assignment</th>' +
+                    '<th>Harmonic (cm<sup>-1</sup>)</th>' +
+                    '<th>Anharmonic (cm<sup>-1</sup>)</th>' +
+                    '<th>Rotational Constants A, B, C (cm<sup>-1</sup>)</th>' +
+                '</tr>';
+
+            if (Array.isArray(d.vibrational_modes)) {
+                d.vibrational_modes.forEach(m => {
+                    let rc = m.rotational_constants || {};
+                    let modeDoi = m.reference_doi || defaultDoi;
+
+                    // Fallback to empty string if label doesn't exist
+                    let modeLabel = m.label ? m.label : '';
+                    let harmText = formatValueWithDOI(m.harmonic, m.harmonic_unc, 'harmonic_unc', m.harmonic_doi, modeDoi, 2);
+                    let anharmText = formatValueWithDOI(m.anharmonic, m.anharmonic_unc, 'anharmonic_unc', m.anharmonic_doi, modeDoi, 2);
+
+                    let aText = formatValueWithDOI(rc.A, rc.A_unc, 'A_unc', rc.A_doi, modeDoi, 3);
+                    let bText = formatValueWithDOI(rc.B, rc.B_unc, 'B_unc', rc.B_doi, modeDoi, 3);
+                    let cText = formatValueWithDOI(rc.C, rc.C_unc, 'C_unc', rc.C_doi, modeDoi, 3);
+
+                    modesHtml += `<tr>
+                        <td>${m.mode_id !== undefined ? m.mode_id : ''}</td>
+                        <td>${modeLabel}</td>
+                        <td>${harmText}</td>
+                        <td>${anharmText}</td>
+                        <td>A: ${aText}, B: ${bText}, C: ${cText}</td>
+                    </tr>`;
+                });
+            }
+
+            modesHtml += '</table>';
+
+            return headerHtml + modesHtml;
+        }
+
+        $(document).ready(function () {
+            var table = $('#molecule-table').DataTable({
+                ajax: { url: 'search_index.json', dataSrc: '' },
+                stripeClasses: [],
+                columns: [
+                    { "className": 'details-control', "orderable": false, "data": null, "defaultContent": '➕' },
+                    { data: 'formula', defaultContent: '—' },
+                    { data: 'isotopologue', defaultContent: '—' },
+                    { data: 'name', defaultContent: '—' },
+                    { data: 'electronic_state', defaultContent: '—' },
+                    { 
+                        data: 'source_type',
+                        defaultContent: 'N/A',
+                        render: function(data) {
+                            if (data === 'experiment') {
+                                return '<span class="badge badge-exp">Experiment</span>';
+                            } else if (data === 'computation') {
+                                return '<span class="badge badge-comp">Computation</span>';
+                            } else if (data) {
+                                return `<span class="badge badge-other">${data.charAt(0).toUpperCase() + data.slice(1)}</span>`;
+                            }
+                            return 'N/A';
+                        }
+                    },
+                    {
+                        data: null,
+                        render: function(data, type, row) {
+                            if (row.source_type === 'experiment') {
+                                return '<em>Experimental Benchmark</em>';
+                            }
+                            
+                            let meta = row.computation_metadata;
+                            if (meta) {
+                                let method = (meta.method && meta.method !== 'Unknown') ? meta.method : '';
+                                let basis = (meta.basis_set && meta.basis_set !== 'Unknown') ? meta.basis_set : '';
+                                
+                                if (method && basis) {
+                                    return `<span class="method-tag">${method} / ${basis}</span>`;
+                                } else if (method) {
+                                    return `<span class="method-tag">${method}</span>`;
+                                } else if (basis) {
+                                    return `<span class="method-tag">${basis}</span>`;
+                                }
+                            }
+                            
+                            if (row.label) {
+                                return `<em>${row.label}</em>`;
+                            }
+                            
+                            return '—';
+                        }
+                    }
+                ],
+                createdRow: function(row, data, dataIndex) {
+                    if (data.source_type === 'experiment') {
+                        $(row).addClass('experimental-row');
+                    }
+                }
+            });
+
+            $('#molecule-table tbody').on('click', 'td.details-control', function () {
+                var tr = $(this).closest('tr');
+                var row = table.row(tr);
+
+                if (row.child.isShown()) {
+                    row.child.hide();
+                    tr.removeClass('shown');
+                    $(this).text('➕');
+                } else {
+                    row.child(formatDetails(row.data())).show();
+                    tr.addClass('shown');
+                    $(this).text('➖');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

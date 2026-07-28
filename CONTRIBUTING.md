@@ -1,4 +1,4 @@
-# Contributing to BioSPEC
+## Contributing to BioSPEC
 
 Thank you for contributing spectroscopic data to BioSPEC! By adding molecular records to this database, you help build an open resource for planetary atmospheric modeling, astrochemistry, and biosignature detection.
 
@@ -6,7 +6,7 @@ To ensure all data remains clean, searchable, and machine-readable, every contri
 
 --------------------------------------------------------------------------------
 
-1. File Naming and Location
+# 1. File Naming and Location
 
 * Directory: All individual molecule records MUST be placed in the "data/" folder.
 * Filename: Name your file using the chemical formula (e.g., "data/CH4.json", "data/H2O.json", or "data/HOBr.json").
@@ -14,7 +14,7 @@ To ensure all data remains clean, searchable, and machine-readable, every contri
 
 --------------------------------------------------------------------------------
 
-2. JSON Format and Data Schema
+# 2. JSON Format and Data Schema
 
 Every file must be valid JSON and contain at minimum the "formula" and "source_type" fields.
 
@@ -53,7 +53,7 @@ Important Formatting Rules:
 
 --------------------------------------------------------------------------------
 
-3. How to Submit Your Data
+# 3. How to Submit Your Data
 
 Option A: Via GitHub Web Interface (Easiest)
 
@@ -80,7 +80,7 @@ Option B: Via Command Line / Git
 
 --------------------------------------------------------------------------------
 
-4. Automated Validation Checks
+# 4. Automated Validation Checks
 
 Once your Pull Request is submitted, GitHub Actions will automatically run validate_data.py using Pydantic to verify your file.
 

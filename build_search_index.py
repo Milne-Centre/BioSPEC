@@ -7,11 +7,11 @@ def build_index():
         with open(file, 'r') as f:
             entries = json.load(f)
             
-            # Ensure it's a list (as enforced by our validation script)
+            # Ensure it's a list
             if not isinstance(entries, list):
                 entries = [entries]
                 
-            # Loop through each entry (tier of theory or experiment) in the molecule file
+            # Loop through each entry in the molecule file
             for entry in entries:
                 data_list.append({
                     "label": entry.get("label"),

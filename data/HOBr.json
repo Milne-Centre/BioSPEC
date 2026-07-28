@@ -1,0 +1,318 @@
+[
+  {
+    "formula": "HOBr",
+    "isotopologue": "HO(79)Br",
+    "name": "Hypobromous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "experiment",
+    "reference_doi": "10.0000/placeholder_doi",
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 20.4701657,
+          "B": 0.35281792,
+          "C": 0.34632149
+        }
+      },
+      {
+        "mode_id": 1,
+        "harmonic": null,
+        "anharmonic": 3614.902413,
+        "rotational_constants": {
+          "A": 19.6627897,
+          "B": 0.352274731,
+          "C": 0.345614555
+        }
+      },
+      {
+        "mode_id": 2,
+        "harmonic": null,
+        "anharmonic": 1162.570388,
+        "rotational_constants": {
+          "A": 21.3166001,
+          "B": 0.3521533876,
+          "C": 0.3450251807
+        }
+      },
+      {
+        "mode_id": 3,
+        "harmonic": null,
+        "anharmonic": 620.2285,
+        "rotational_constants": {
+          "A": 20.4408104,
+          "B": 0.34992867,
+          "C": 0.34346658
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOBr",
+    "isotopologue": "HO(79)Br",
+    "name": "Hypobromous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 20.92114,
+          "B": 0.349913,
+          "C": 0.344157
+        }
+      },
+      {
+        "mode_id": 1,
+        "harmonic": 4060.273063,
+        "anharmonic": 3794.97401,
+        "rotational_constants": {
+          "A": 20.061608,
+          "B": 0.349023,
+          "C": 0.343055
+        }
+      },
+      {
+        "mode_id": 2,
+        "harmonic": 1181.739517,
+        "anharmonic": 1138.235814,
+        "rotational_constants": {
+          "A": 21.170003,
+          "B": 0.350267,
+          "C": 0.344566
+        }
+      },
+      {
+        "mode_id": 3,
+        "harmonic": 639.569205,
+        "anharmonic": 630.645006,
+        "rotational_constants": {
+          "A": 19.21053,
+          "B": 0.346571,
+          "C": 0.340429
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOBr",
+    "isotopologue": "HO(79)Br",
+    "name": "Hypobromous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 21.258873,
+          "B": 0.352176,
+          "C": 0.346437
+        }
+      },
+      {
+        "mode_id": 1,
+        "harmonic": 4094.433421,
+        "anharmonic": 3834.323671,
+        "rotational_constants": {
+          "A": 20.417541,
+          "B": 0.351305,
+          "C": 0.345362
+        }
+      },
+      {
+        "mode_id": 2,
+        "harmonic": 1167.670378,
+        "anharmonic": 1120.255495,
+        "rotational_constants": {
+          "A": 21.606871,
+          "B": 0.352622,
+          "C": 0.34696
+        }
+      },
+      {
+        "mode_id": 3,
+        "harmonic": 634.025272,
+        "anharmonic": 628.510825,
+        "rotational_constants": {
+          "A": 19.71499,
+          "B": 0.349021,
+          "C": 0.34295
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOBr",
+    "isotopologue": "HO(81)Br",
+    "name": "Hypobromous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "experiment",
+    "reference_doi": "10.0000/placeholder_doi",
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 20.4700384,
+          "B": 0.35127762,
+          "C": 0.34483688
+        }
+      },
+      {
+        "mode_id": 1,
+        "harmonic": null,
+        "anharmonic": 3614.903704,
+        "rotational_constants": {
+          "A": 19.6626575,
+          "B": 0.350736029,
+          "C": 0.344134737
+        }
+      },
+      {
+        "mode_id": 2,
+        "harmonic": null,
+        "anharmonic": 1162.494439,
+        "rotational_constants": {
+          "A": 21.31638744,
+          "B": 0.3448190533,
+          "C": 0.3435464647
+        }
+      },
+      {
+        "mode_id": 3,
+        "harmonic": null,
+        "anharmonic": 618.90605,
+        "rotational_constants": {
+          "A": 20.4407086,
+          "B": 0.34840754,
+          "C": 0.34200048
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOBr",
+    "isotopologue": "HO(81)Br",
+    "name": "Hypobromous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 20.921026,
+          "B": 0.348384,
+          "C": 0.342677
+        }
+      },
+      {
+        "mode_id": 1,
+        "harmonic": 4060.272675,
+        "anharmonic": 3794.97495,
+        "rotational_constants": {
+          "A": 20.061606,
+          "B": 0.347499,
+          "C": 0.341582
+        }
+      },
+      {
+        "mode_id": 2,
+        "harmonic": 1181.656832,
+        "anharmonic": 1138.132698,
+        "rotational_constants": {
+          "A": 21.169312,
+          "B": 0.348734,
+          "C": 0.343083
+        }
+      },
+      {
+        "mode_id": 3,
+        "harmonic": 638.188149,
+        "anharmonic": 629.295548,
+        "rotational_constants": {
+          "A": 19.209297,
+          "B": 0.34506,
+          "C": 0.338971
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOBr",
+    "isotopologue": "HO(81)Br",
+    "name": "Hypobromous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 21.258738,
+          "B": 0.350637,
+          "C": 0.344948
+        }
+      },
+      {
+        "mode_id": 1,
+        "harmonic": 4094.433219,
+        "anharmonic": 3834.323512,
+        "rotational_constants": {
+          "A": 20.417528,
+          "B": 0.349771,
+          "C": 0.34388
+        }
+      },
+      {
+        "mode_id": 2,
+        "harmonic": 1167.585422,
+        "anharmonic": 1120.146574,
+        "rotational_constants": {
+          "A": 21.606154,
+          "B": 0.351079,
+          "C": 0.345466
+        }
+      },
+      {
+        "mode_id": 3,
+        "harmonic": 632.657867,
+        "anharmonic": 627.162684,
+        "rotational_constants": {
+          "A": 19.714105,
+          "B": 0.3475,
+          "C": 0.34148
+        }
+      }
+    ]
+  }
+]

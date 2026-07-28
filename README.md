@@ -6,7 +6,7 @@
 
 An open, automated database of rotational and vibrational spectroscopic data for astrobiological biosignatures, planetary atmosphere modeling, and astrochemistry.
 
-**Live Database:** [https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)
+**Live Database:** [https://Milne-Centre.github.io/BioSPEC/](https://Milne-Centre.github.io/BioSPEC/)
 
 ---
 

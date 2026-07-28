@@ -19,7 +19,7 @@ To ensure all data remains clean, searchable, and machine-readable, every contri
 Every file must be valid JSON and contain at minimum the "formula" and "source_type" fields.
 
 JSON Template:
-
+```json
 {
   "formula": "CH4",
   "source_type": "computation",
@@ -42,6 +42,7 @@ JSON Template:
     }
   ]
 }
+```
 
 Important Formatting Rules:
 

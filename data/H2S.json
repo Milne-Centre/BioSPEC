@@ -1,0 +1,174 @@
+[
+  {
+    "formula": "H2S",
+    "isotopologue": "H2S",
+    "name": "Hydrogen sulphide",
+    "electronic_state": "X 1A1",
+    "source_type": "experiment",
+    "reference_doi": "10.1016/0022-2852(81)90309-X",
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+	      "reference_doi": "10.1016/0022-2852(83)90334-X",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 10.3601689,
+          "B": 9.0181434,
+          "C": 4.73078785
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": null,
+        "anharmonic": 2614.4,
+        "rotational_constants": {
+          "A": 10.2001,
+          "B": 8.8937,
+          "C": 4.6624
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+      	"reference_doi": "10.1016/0022-2852(83)90334-X",
+        "harmonic": null,
+        "anharmonic": 1182.575,
+        "rotational_constants": {
+          "A": 10.72212,
+          "B": 9.22436,
+          "C": 4.668824
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": null,
+        "anharmonic": 2628.44,
+        "rotational_constants": {
+          "A": 10.145,
+          "B": 8.939,
+          "C": 4.6788
+        }
+      }
+    ]
+  },
+  {
+    "formula": "H2S",
+    "isotopologue": "H2S",
+    "name": "Hydrogen sulphide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 10.514902,
+          "B": 9.047702,
+          "C": 4.863141
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 2782.122757,
+        "anharmonic": 2673.59415,
+        "rotational_constants": {
+          "A": 10.514885,
+          "B": 9.047708,
+          "C": 4.863139
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1247.785578,
+        "anharmonic": 1210.854597,
+        "rotational_constants": {
+          "A": 10.48004,
+          "B": 9.037501,
+          "C": 4.852731
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 2769.725097,
+        "anharmonic": 2702.996754,
+        "rotational_constants": {
+          "A": 10.085919,
+          "B": 8.820351,
+          "C": 4.705389
+        }
+      }
+    ]
+  },
+  {
+    "formula": "H2S",
+    "isotopologue": "H2S",
+    "name": "Hydrogen sulphide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 10.281853,
+          "B": 8.892014,
+          "C": 4.768281
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 2685.283789,
+        "anharmonic": 2586.188145,
+        "rotational_constants": {
+          "A": 10.281873,
+          "B": 8.89198,
+          "C": 4.768275
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1207.122732,
+        "anharmonic": 1172.519987,
+        "rotational_constants": {
+          "A": 10.290593,
+          "B": 8.906506,
+          "C": 4.774327
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 2671.101815,
+        "anharmonic": 2613.587921,
+        "rotational_constants": {
+          "A": 10.27426,
+          "B": 8.372123,
+          "C": 4.613086
+        }
+      }
+    ]
+  }
+]

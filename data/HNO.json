@@ -1,0 +1,173 @@
+[
+  {
+    "formula": "HNO",
+    "isotopologue": "HNO",
+    "name": "Nitroxyl",
+    "electronic_state": "X 1A1",
+    "source_type": "experiment",
+    "reference_doi": "10.1063/1.434013",
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 18.476055,
+          "B": 1.4112598,
+          "C": 1.30655178
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "N-H stretch",
+      	"reference_doi": "10.1139/p83-142",
+        "harmonic": null,
+        "anharmonic": 2683.9521,
+        "rotational_constants": {
+          "A": 17.73016,
+          "B": 1.4191542,
+          "C": 1.3069196
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "N=O stretch",
+        "harmonic": null,
+        "anharmonic": 1565.345,
+        "rotational_constants": {
+          "A": 18.57568,
+          "B": 1.40058,
+          "C": 1.29256
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Bend",
+        "harmonic": null,
+        "anharmonic": 1500.818,
+        "rotational_constants": {
+          "A": 18.82257,
+          "B": 1.40836,
+          "C": 1.29903
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HNO",
+    "isotopologue": "HNO",
+    "name": "Nitroxyl",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 19.092041,
+          "B": 1.403975,
+          "C": 1.307803
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "N-H stretch",
+        "harmonic": 3085.731984,
+        "anharmonic": 2825.561071,
+        "rotational_constants": {
+          "A": 17.516915,
+          "B": 1.40801,
+          "C": 1.303255
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "N=O stretch",
+        "harmonic": 1615.867242,
+        "anharmonic": 1585.614197,
+        "rotational_constants": {
+          "A": 19.857385,
+          "B": 1.400378,
+          "C": 1.308126
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Bend",
+        "harmonic": 1558.682921,
+        "anharmonic": 1520.594918,
+        "rotational_constants": {
+          "A": 19.040752,
+          "B": 1.40595,
+          "C": 1.309275
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HNO",
+    "isotopologue": "HNO",
+    "name": "Nitroxyl",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 18.701273,
+          "B": 1.433166,
+          "C": 1.331154
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "N-H stretch",
+        "harmonic": 2883.954676,
+        "anharmonic": 2627.659762,
+        "rotational_constants": {
+          "A": 17.056298,
+          "B": 1.449835,
+          "C": 1.33625
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "N=O stretch",
+        "harmonic": 1669.528686,
+        "anharmonic": 1646.53697,
+        "rotational_constants": {
+          "A": 19.016079,
+          "B": 1.4194,
+          "C": 1.320812
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Bend",
+        "harmonic": 1560.186415,
+        "anharmonic": 1517.885123,
+        "rotational_constants": {
+          "A": 19.265549,
+          "B": 1.432142,
+          "C": 1.333047
+        }
+      }
+    ]
+  }
+]

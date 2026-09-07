@@ -1,0 +1,175 @@
+[
+  {
+    "formula": "Br2O",
+    "isotopologue": "(79)BrO(81)Br",
+    "name": "Dibromine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "experiment",
+    "reference_doi": "10.1063/1.473920",
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 1.1068508267809727,
+          "B": 0.04507783948320675,
+          "C": 0.04328778844729977
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": null,
+        "anharmonic": 532.9,
+	"anharmonic_doi":"10.1016/S0009-2614(00)01090-3",
+        "rotational_constants": {
+          "A": null,
+          "B": null,
+          "C": null
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": null,
+        "anharmonic": 180.0,
+	"anharmonic_doi": "10.1016/0009-2614(96)00493-9",
+        "rotational_constants": {
+          "A": 1.1143812663892965,
+          "B": 0.04504665457594667,
+          "C": 0.04324863602806179
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": null,
+        "anharmonic": 629.0,
+	"anharmonic_doi": "10.1016/S0009-2614(00)01090-3",
+        "rotational_constants": {
+          "A": null,
+          "B": null,
+          "C": null
+        }
+      }
+    ]
+  },
+  {
+    "formula": "Br2O",
+    "isotopologue": "(79)BrO(81)Br",
+    "name": "Dibromine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 1.076748,
+          "B": 0.044716,
+          "C": 0.042933
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 515.830343,
+        "anharmonic": 512.306053,
+        "rotational_constants": {
+          "A": 1.055658,
+          "B": 0.044786,
+          "C": 0.042963
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 180.413188,
+        "anharmonic": 179.210449,
+        "rotational_constants": {
+          "A": 1.121702,
+          "B": 0.044593,
+          "C": 0.042888
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 671.217259,
+        "anharmonic": 657.872811,
+        "rotational_constants": {
+          "A": 1.076782,
+          "B": 0.044716,
+          "C": 0.042933
+        }
+      }
+    ]
+  },
+  {
+    "formula": "Br2O",
+    "isotopologue": "(79)BrO(81)Br",
+    "name": "Dibromine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 1.185794,
+          "B": 0.04387,
+          "C": 0.042304
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 522.515328,
+        "anharmonic": 522.282897,
+        "rotational_constants": {
+          "A": 1.185825,
+          "B": 0.043869,
+          "C": 0.042304
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 174.179164,
+        "anharmonic": 173.502832,
+        "rotational_constants": {
+          "A": 1.164661,
+          "B": 0.043929,
+          "C": 0.042332
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 623.708749,
+        "anharmonic": 614.384239,
+        "rotational_constants": {
+          "A": 1.244554,
+          "B": 0.043749,
+          "C": 0.042263
+        }
+      }
+    ]
+  }
+]

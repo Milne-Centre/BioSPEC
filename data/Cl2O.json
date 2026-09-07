@@ -1,0 +1,176 @@
+[
+  {
+    "formula": "Cl2O",
+    "isotopologue": "(35)Cl2O",
+    "name": "Dichlorine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "experiment",
+    "reference_doi": "10.1016/0022-2860(95)08831-F",
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+	      "reference_doi": "10.1039/J19660000336",
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 1.402516937233958,
+          "B": 0.12285442484346955,
+          "C": 0.11280807471147256
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": null,
+        "anharmonic": 639.0,
+      	"anharmonic_doi": "10.6028/NBS.NSRDS.17",
+        "rotational_constants": {
+          "A": 1.4119107692829285,
+          "B": 0.12230447771971635,
+          "C": 0.11168316315682632
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": null,
+        "anharmonic": 296.0,
+      	"anharmonic_doi": "10.6028/NBS.NSRDS.17",
+        "rotational_constants": {
+          "A": 1.4160573045503366,
+          "B": 0.12270598882110637,
+          "C": 0.11258418649077556
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": null,
+        "anharmonic": 686.0,
+      	"anharmonic_doi": "10.6028/NBS.NSRDS.17",
+        "rotational_constants": {
+          "A": 1.386694657942329,
+          "B": 0.12216951768679918,
+          "C": 0.11267748436820249
+        }
+      }
+    ]
+  },
+  {
+    "formula": "Cl2O",
+    "isotopologue": "(35)Cl2O",
+    "name": "Dichlorine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 1.475066,
+          "B": 0.120343,
+          "C": 0.111266
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 645.860785,
+        "anharmonic": 643.758091,
+        "rotational_constants": {
+          "A": 1.464153,
+          "B": 0.11974,
+          "C": 0.110687
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 290.77933,
+        "anharmonic": 289.298531,
+        "rotational_constants": {
+          "A": 1.455366,
+          "B": 0.11934,
+          "C": 0.110296
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 679.534519,
+        "anharmonic": 667.285921,
+        "rotational_constants": {
+          "A": 1.475112,
+          "B": 0.120342,
+          "C": 0.111265
+        }
+      }
+    ]
+  },
+  {
+    "formula": "Cl2O",
+    "isotopologue": "(35)Cl2O",
+    "name": "Dichlorine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 1.380648,
+          "B": 0.122709,
+          "C": 0.112693
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 637.390475,
+        "anharmonic": 632.400891,
+        "rotational_constants": {
+          "A": 1.349123,
+          "B": 0.122918,
+          "C": 0.112654
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 299.105933,
+        "anharmonic": 296.747869,
+        "rotational_constants": {
+          "A": 1.422393,
+          "B": 0.122431,
+          "C": 0.112728
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 742.401619,
+        "anharmonic": 725.264132,
+        "rotational_constants": {
+          "A": 1.380648,
+          "B": 0.122709,
+          "C": 0.112693
+        }
+      }
+    ]
+  }
+]

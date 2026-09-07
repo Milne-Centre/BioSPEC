@@ -1,0 +1,172 @@
+[
+  {
+    "formula": "HOF",
+    "isotopologue": "HOF",
+    "name": "Hypofluorous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "experiment",
+    "reference_doi": "10.1016/0022-2852(89)90003-9",
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 19.534577,
+          "B": 0.892648,
+          "C": 0.850911
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "O-H stretch",
+        "harmonic": null,
+        "anharmonic": 3578.5,
+        "rotational_constants": {
+          "A": 18.795844,
+          "B": 0.892264,
+          "C": 0.849283
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": null,
+        "anharmonic": 1354.8,
+        "rotational_constants": {
+          "A": 20.034172,
+          "B": 0.888866,
+          "C": 0.843708
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "O-F stretch",
+        "harmonic": null,
+        "anharmonic": 889.0,
+        "rotational_constants": {
+          "A": 19.515276,
+          "B": 0.881473,
+          "C": 0.839928
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOF",
+    "isotopologue": "HOF",
+    "name": "Hypofluorous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 19.707981,
+          "B": 0.897712,
+          "C": 0.858602
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "O-H stretch",
+        "harmonic": 3800.772844,
+        "anharmonic": 3563.777318,
+        "rotational_constants": {
+          "A": 18.65936,
+          "B": 0.893358,
+          "C": 0.85254
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1414.069995,
+        "anharmonic": 1365.624509,
+        "rotational_constants": {
+          "A": 20.031512,
+          "B": 0.89951,
+          "C": 0.860854
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "O-F stretch",
+        "harmonic": 939.77504,
+        "anharmonic": 921.518756,
+        "rotational_constants": {
+          "A": 18.338977,
+          "B": 0.885656,
+          "C": 0.844855
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOF",
+    "isotopologue": "HOF",
+    "name": "Hypofluorous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 19.692286,
+          "B": 0.914601,
+          "C": 0.874008
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "O-H stretch",
+        "harmonic": 3766.178268,
+        "anharmonic": 3536.439372,
+        "rotational_constants": {
+          "A": 18.625666,
+          "B": 0.910066,
+          "C": 0.867671
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1420.798656,
+        "anharmonic": 1373.534641,
+        "rotational_constants": {
+          "A": 20.056116,
+          "B": 0.916402,
+          "C": 0.876359
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "O-F stretch",
+        "harmonic": 1003.439247,
+        "anharmonic": 985.696496,
+        "rotational_constants": {
+          "A": 18.510391,
+          "B": 0.903714,
+          "C": 0.861646
+        }
+      }
+    ]
+  }
+]

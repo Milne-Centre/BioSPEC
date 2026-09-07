@@ -1,0 +1,172 @@
+[
+  {
+    "formula": "O3",
+    "isotopologue": "O3",
+    "name": "Ozone",
+    "electronic_state": "X 1A1",
+    "source_type": "experiment",
+    "reference_doi": "10.1016/S1386-1425(97)00214-X",
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 3.554,
+          "B": 0.445,
+          "C": 0.395
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": null,
+        "anharmonic": 1103.1,
+        "rotational_constants": {
+          "A": 3.557,
+          "B": 0.443,
+          "C": 0.393
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": null,
+        "anharmonic": 1042.1,
+        "rotational_constants": {
+          "A": 3.607,
+          "B": 0.444,
+          "C": 0.392
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": null,
+        "anharmonic": 700.9,
+        "rotational_constants": {
+          "A": 3.556691,
+          "B": 0.449059,
+          "C": 0.398717
+        }
+      }
+    ]
+  },
+  {
+    "formula": "O3",
+    "isotopologue": "O3",
+    "name": "Ozone",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 3.568588,
+          "B": 0.447745,
+          "C": 0.39783
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 2127.95064,
+        "anharmonic": 2096.639769,
+        "rotational_constants": {
+          "A": 3.568587,
+          "B": 0.447745,
+          "C": 0.39783
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1198.584944,
+        "anharmonic": 1232.554173,
+        "rotational_constants": {
+          "A": 3.599378,
+          "B": 0.447439,
+          "C": 0.397968
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 811.505721,
+        "anharmonic": 814.890063,
+        "rotational_constants": {
+          "A": 3.546415,
+          "B": 0.447436,
+          "C": 0.39731
+        }
+      }
+    ]
+  },
+  {
+    "formula": "O3",
+    "isotopologue": "O3",
+    "name": "Ozone",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 3.829665,
+          "B": 0.455895,
+          "C": 0.407397
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 1279.662552,
+        "anharmonic": 1271.007627,
+        "rotational_constants": {
+          "A": 3.794314,
+          "B": 0.450617,
+          "C": 0.402782
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1241.069219,
+        "anharmonic": 1216.411313,
+        "rotational_constants": {
+          "A": 3.806315,
+          "B": 0.45111,
+          "C": 0.403311
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 752.896531,
+        "anharmonic": 743.112591,
+        "rotational_constants": {
+          "A": 3.829879,
+          "B": 0.455883,
+          "C": 0.40739
+        }
+      }
+    ]
+  }
+]

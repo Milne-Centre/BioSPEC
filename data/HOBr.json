@@ -5,10 +5,11 @@
     "name": "Hypobromous acid",
     "electronic_state": "X 1A1",
     "source_type": "experiment",
-    "reference_doi": "10.0000/placeholder_doi",
+    "reference_doi": "10.1016/j.molstruc.2005.01.006",
     "vibrational_modes": [
       {
         "mode_id": 0,
+        "label": "Ground state",
         "harmonic": null,
         "anharmonic": null,
         "rotational_constants": {
@@ -19,6 +20,8 @@
       },
       {
         "mode_id": 1,
+        "label": "O-H stretch",
+	      "reference_doi": "10.1006/jmsp.1995.1218",
         "harmonic": null,
         "anharmonic": 3614.902413,
         "rotational_constants": {
@@ -29,6 +32,8 @@
       },
       {
         "mode_id": 2,
+        "label": "Bend",
+	      "reference_doi": "10.1016/0022-2852(90)90074-Z",
         "harmonic": null,
         "anharmonic": 1162.570388,
         "rotational_constants": {
@@ -39,6 +44,7 @@
       },
       {
         "mode_id": 3,
+        "label": "O-Br stretch",
         "harmonic": null,
         "anharmonic": 620.2285,
         "rotational_constants": {
@@ -63,6 +69,7 @@
     "vibrational_modes": [
       {
         "mode_id": 0,
+        "label": "Ground state",
         "harmonic": null,
         "anharmonic": null,
         "rotational_constants": {
@@ -73,6 +80,7 @@
       },
       {
         "mode_id": 1,
+        "label": "O-H stretch",
         "harmonic": 4060.273063,
         "anharmonic": 3794.97401,
         "rotational_constants": {
@@ -83,6 +91,7 @@
       },
       {
         "mode_id": 2,
+        "label": "Bend",
         "harmonic": 1181.739517,
         "anharmonic": 1138.235814,
         "rotational_constants": {
@@ -93,6 +102,7 @@
       },
       {
         "mode_id": 3,
+        "label": "O-Br stretch",
         "harmonic": 639.569205,
         "anharmonic": 630.645006,
         "rotational_constants": {
@@ -117,6 +127,7 @@
     "vibrational_modes": [
       {
         "mode_id": 0,
+        "label": "Ground state",
         "harmonic": null,
         "anharmonic": null,
         "rotational_constants": {
@@ -127,6 +138,7 @@
       },
       {
         "mode_id": 1,
+        "label": "O-H stretch",
         "harmonic": 4094.433421,
         "anharmonic": 3834.323671,
         "rotational_constants": {
@@ -137,6 +149,7 @@
       },
       {
         "mode_id": 2,
+        "label": "Bend",
         "harmonic": 1167.670378,
         "anharmonic": 1120.255495,
         "rotational_constants": {
@@ -147,6 +160,7 @@
       },
       {
         "mode_id": 3,
+        "label": "O-Br stretch",
         "harmonic": 634.025272,
         "anharmonic": 628.510825,
         "rotational_constants": {
@@ -163,10 +177,11 @@
     "name": "Hypobromous acid",
     "electronic_state": "X 1A1",
     "source_type": "experiment",
-    "reference_doi": "10.0000/placeholder_doi",
+    "reference_doi": "10.1016/j.molstruc.2005.01.006",
     "vibrational_modes": [
       {
         "mode_id": 0,
+        "label": "Ground state",
         "harmonic": null,
         "anharmonic": null,
         "rotational_constants": {
@@ -177,6 +192,8 @@
       },
       {
         "mode_id": 1,
+        "label": "O-H stretch",
+	      "reference_doi": "10.1006/jmsp.1995.1218",
         "harmonic": null,
         "anharmonic": 3614.903704,
         "rotational_constants": {
@@ -187,7 +204,9 @@
       },
       {
         "mode_id": 2,
+        "label": "Bend",
         "harmonic": null,
+      	"reference_doi": "10.1016/0022-2852(90)90074-Z",
         "anharmonic": 1162.494439,
         "rotational_constants": {
           "A": 21.31638744,
@@ -197,6 +216,7 @@
       },
       {
         "mode_id": 3,
+        "label": "O-Br stretch",
         "harmonic": null,
         "anharmonic": 618.90605,
         "rotational_constants": {
@@ -221,6 +241,7 @@
     "vibrational_modes": [
       {
         "mode_id": 0,
+        "label": "Ground state",
         "harmonic": null,
         "anharmonic": null,
         "rotational_constants": {
@@ -231,6 +252,7 @@
       },
       {
         "mode_id": 1,
+        "label": "O-H stretch",
         "harmonic": 4060.272675,
         "anharmonic": 3794.97495,
         "rotational_constants": {
@@ -241,6 +263,7 @@
       },
       {
         "mode_id": 2,
+        "label": "Bend",
         "harmonic": 1181.656832,
         "anharmonic": 1138.132698,
         "rotational_constants": {
@@ -251,6 +274,7 @@
       },
       {
         "mode_id": 3,
+        "label": "O-Br stretch",
         "harmonic": 638.188149,
         "anharmonic": 629.295548,
         "rotational_constants": {
@@ -275,6 +299,7 @@
     "vibrational_modes": [
       {
         "mode_id": 0,
+        "label": "Ground state",
         "harmonic": null,
         "anharmonic": null,
         "rotational_constants": {
@@ -285,6 +310,7 @@
       },
       {
         "mode_id": 1,
+        "label": "O-H stretch",
         "harmonic": 4094.433219,
         "anharmonic": 3834.323512,
         "rotational_constants": {
@@ -295,6 +321,7 @@
       },
       {
         "mode_id": 2,
+        "label": "Bend",
         "harmonic": 1167.585422,
         "anharmonic": 1120.146574,
         "rotational_constants": {
@@ -305,6 +332,7 @@
       },
       {
         "mode_id": 3,
+        "label": "O-Br stretch",
         "harmonic": 632.657867,
         "anharmonic": 627.162684,
         "rotational_constants": {

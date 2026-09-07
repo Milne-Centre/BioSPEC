@@ -59,7 +59,7 @@
   },
   {
     "formula": "Cl2O",
-    "isotopologue": "(35)Cl2O with ECP",
+    "isotopologue": "(35)Cl2O",
     "name": "Dichlorine monoxide",
     "electronic_state": "X 1A1",
     "source_type": "computation",
@@ -117,7 +117,7 @@
   },
   {
     "formula": "Cl2O",
-    "isotopologue": "(35)Cl2O with ECP",
+    "isotopologue": "(35)Cl2O",
     "name": "Dichlorine monoxide",
     "electronic_state": "X 1A1",
     "source_type": "computation",

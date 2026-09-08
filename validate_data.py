@@ -17,13 +17,13 @@ class MoleculeEntry(BaseModel):
     vibrational_modes: list[VibrationalMode]
 
 class RotationalConstants(BaseModel):
-    A: float
+    A: Optional[float] = None  # Accepts float or null
     A_unc: Optional[float] = None
     A_doi: Optional[str] = None
-    B: float
+    B: Optional[float] = None  # Accepts float or null
     B_unc: Optional[float] = None
     B_doi: Optional[str] = None
-    C: float
+    C: Optional[float] = None  # Accepts float or null
     C_unc: Optional[float] = None
     C_doi: Optional[str] = None
 

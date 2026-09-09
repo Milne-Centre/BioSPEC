@@ -23,7 +23,7 @@
         "label": "Symmetric stretch",
         "harmonic": null,
         "anharmonic": 928.0,
-	"anharmonic_doi": "10.6028/NBS.NSRDS.39",
+		"anharmonic_doi": "10.6028/NBS.NSRDS.39",
         "rotational_constants": {
           "A": 1.959491589344786,
           "B": 0.36127193032988175,
@@ -35,7 +35,7 @@
         "label": "Bend",
         "harmonic": null,
         "anharmonic": 461.0,
-	"anharmonic_doi": "10.6028/NBS.NSRDS.39",
+		"anharmonic_doi": "10.6028/NBS.NSRDS.39",
         "rotational_constants": {
           "A": 1.9840942763143161,
           "B": 0.3620528038767406,
@@ -47,7 +47,7 @@
         "label": "Asymmetric stretch",
         "harmonic": null,
         "anharmonic": 831.0,
-	"anharmonic_doi": "10.6028/NBS.NSRDS.39",
+		"anharmonic_doi": "10.6028/NBS.NSRDS.39",
         "rotational_constants": {
           "A": 1.9412636457985877,
           "B": 0.36114550953780167,
@@ -168,6 +168,238 @@
           "A": 2.084308,
           "B": 0.365882,
           "C": 0.311246
+        }
+      }
+    ]
+  },
+  {
+    "formula": "F2O",
+    "isotopologue": "F2O",
+    "name": "Difluorine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "def2-TZVPD",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 1.924622,
+          "B": 0.365237,
+          "C": 0.306981
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 935.665738,
+        "anharmonic": 918.907257,
+        "rotational_constants": {
+          "A": 1.900768,
+          "B": 0.3609,
+          "C": 0.30331
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 471.60438,
+        "anharmonic": 462.584988,
+        "rotational_constants": {
+          "A": 1.924622,
+          "B": 0.365237,
+          "C": 0.306981
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 874.866362,
+        "anharmonic": 845.736102,
+        "rotational_constants": {
+          "A": 1.905791,
+          "B": 0.360179,
+          "C": 0.302928
+        }
+      }
+    ]
+  },
+  {
+    "formula": "F2O",
+    "isotopologue": "F2O",
+    "name": "Difluorine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "EDF2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 2.02983,
+          "B": 0.36786,
+          "C": 0.311422
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 1028.010787,
+        "anharmonic": 1020.716536,
+        "rotational_constants": {
+          "A": 1.982529,
+          "B": 0.368663,
+          "C": 0.310857
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 487.403354,
+        "anharmonic": 481.523756,
+        "rotational_constants": {
+          "A": 2.090929,
+          "B": 0.366252,
+          "C": 0.311661
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 892.854778,
+        "anharmonic": 879.180794,
+        "rotational_constants": {
+          "A": 2.029869,
+          "B": 0.367855,
+          "C": 0.311419
+        }
+      }
+    ]
+  },
+  {
+    "formula": "F2O",
+    "isotopologue": "F2O",
+    "name": "Difluorine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "PBE0",
+      "basis_set": "def2-TZVPD",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 2.06832,
+          "B": 0.375715,
+          "C": 0.317957
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 1065.770683,
+        "anharmonic": 1058.386224,
+        "rotational_constants": {
+          "A": 2.048513,
+          "B": 0.372186,
+          "C": 0.314962
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 508.825848,
+        "anharmonic": 503.08798,
+        "rotational_constants": {
+          "A": 2.068291,
+          "B": 0.375721,
+          "C": 0.317961
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 947.495368,
+        "anharmonic": 932.16426,
+        "rotational_constants": {
+          "A": 2.050253,
+          "B": 0.371201,
+          "C": 0.314297
+        }
+      }
+    ]
+  },
+  {
+    "formula": "F2O",
+    "isotopologue": "F2O",
+    "name": "Difluorine monoxide",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "def2-TZVPD",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 2.028891,
+          "B": 0.367664,
+          "C": 0.31126
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 1036.465296,
+        "anharmonic": 1028.793527,
+        "rotational_constants": {
+          "A": 1.98139,
+          "B": 0.368457,
+          "C": 0.310683
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 492.12667,
+        "anharmonic": 486.393889,
+        "rotational_constants": {
+          "A": 2.088737,
+          "B": 0.36613,
+          "C": 0.311524
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 912.047051,
+        "anharmonic": 897.002285,
+        "rotational_constants": {
+          "A": 2.028935,
+          "B": 0.367659,
+          "C": 0.311257
         }
       }
     ]

@@ -20,7 +20,7 @@
       },
       {
         "mode_id": 1,
-	      "reference_doi": "10.1016/0022-2852(79)90177-2",
+	"reference_doi": "10.1016/0022-2852(79)90177-2",
         "label": "O-H stretch",
         "harmonic": null,
         "anharmonic": 3609.4813,
@@ -32,7 +32,7 @@
       },
       {
         "mode_id": 2,
-      	"reference_doi": "10.1016/0022-2852(80)90244-1",
+	"reference_doi": "10.1016/0022-2852(80)90244-1",
         "label": "Bend",
         "harmonic": null,
         "anharmonic": 1238.62422,
@@ -167,6 +167,238 @@
           "A": 19.926295,
           "B": 0.500231,
           "C": 0.48798
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOCl",
+    "isotopologue": "HO(35)Cl",
+    "name": "Hypochlorous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "def2-TZVPD",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 20.253608,
+          "B": 0.506254,
+          "C": 0.493908
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "O-H stretch",
+        "harmonic": 3763.395115,
+        "anharmonic": 3537.132158,
+        "rotational_constants": {
+          "A": 19.256135,
+          "B": 0.504467,
+          "C": 0.491589
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1264.449539,
+        "anharmonic": 1223.47647,
+        "rotational_constants": {
+          "A": 20.497616,
+          "B": 0.506854,
+          "C": 0.494623
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "O-Cl stretch",
+        "harmonic": 747.744845,
+        "anharmonic": 735.643605,
+        "rotational_constants": {
+          "A": 18.664229,
+          "B": 0.500774,
+          "C": 0.487689
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOCl",
+    "isotopologue": "HO(35)Cl",
+    "name": "Hypochlorous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "EDF2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 21.246492,
+          "B": 0.507487,
+          "C": 0.495649
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "O-H stretch",
+        "harmonic": 4066.954588,
+        "anharmonic": 3803.107587,
+        "rotational_constants": {
+          "A": 20.322752,
+          "B": 0.505925,
+          "C": 0.493636
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1254.294719,
+        "anharmonic": 1208.469458,
+        "rotational_constants": {
+          "A": 21.649076,
+          "B": 0.508328,
+          "C": 0.496666
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "O-Cl stretch",
+        "harmonic": 756.140381,
+        "anharmonic": 747.171049,
+        "rotational_constants": {
+          "A": 19.914852,
+          "B": 0.503022,
+          "C": 0.490629
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOCl",
+    "isotopologue": "HO(35)Cl",
+    "name": "Hypochlorous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "PBE0",
+      "basis_set": "def2-TZVPD",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 21.220341,
+          "B": 0.504525,
+          "C": 0.492808
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "O-H stretch",
+        "harmonic": 3997.811405,
+        "anharmonic": 3761.084464,
+        "rotational_constants": {
+          "A": 20.443874,
+          "B": 0.503873,
+          "C": 0.491753
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1199.812884,
+        "anharmonic": 1183.115004,
+        "rotational_constants": {
+          "A": 21.200264,
+          "B": 0.504153,
+          "C": 0.492443
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "O-Cl stretch",
+        "harmonic": 738.317024,
+        "anharmonic": 726.216513,
+        "rotational_constants": {
+          "A": 21.545497,
+          "B": 0.504358,
+          "C": 0.492821
+        }
+      }
+    ]
+  },
+  {
+    "formula": "HOCl",
+    "isotopologue": "HO(35)Cl",
+    "name": "Hypochlorous acid",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "def2-TZVPD",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 20.601708,
+          "B": 0.507051,
+          "C": 0.494871
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "O-H stretch",
+        "harmonic": 3810.909463,
+        "anharmonic": 3586.101708,
+        "rotational_constants": {
+          "A": 19.605541,
+          "B": 0.505293,
+          "C": 0.492597
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1254.440342,
+        "anharmonic": 1210.510747,
+        "rotational_constants": {
+          "A": 20.957601,
+          "B": 0.50784,
+          "C": 0.495825
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "O-Cl stretch",
+        "harmonic": 746.776758,
+        "anharmonic": 738.881542,
+        "rotational_constants": {
+          "A": 19.283741,
+          "B": 0.502437,
+          "C": 0.489679
         }
       }
     ]

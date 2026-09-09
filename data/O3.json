@@ -1,7 +1,7 @@
 [
   {
     "formula": "O3",
-    "isotopologue": "O3",
+    "isotopologue": "(16)O3",
     "name": "Ozone",
     "electronic_state": "X 1A1",
     "source_type": "experiment",
@@ -55,7 +55,7 @@
   },
   {
     "formula": "O3",
-    "isotopologue": "O3",
+    "isotopologue": "(16)O3",
     "name": "Ozone",
     "electronic_state": "X 1A1",
     "source_type": "computation",
@@ -113,7 +113,7 @@
   },
   {
     "formula": "O3",
-    "isotopologue": "O3",
+    "isotopologue": "(16)O3",
     "name": "Ozone",
     "electronic_state": "X 1A1",
     "source_type": "computation",
@@ -171,7 +171,7 @@
   },
   {
     "formula": "O3",
-    "isotopologue": "O3",
+    "isotopologue": "(16)O3",
     "name": "Ozone",
     "electronic_state": "X 1A1",
     "source_type": "computation",
@@ -229,7 +229,7 @@
   },
   {
     "formula": "O3",
-    "isotopologue": "O3",
+    "isotopologue": "(16)O3",
     "name": "Ozone",
     "electronic_state": "X 1A1",
     "source_type": "computation",
@@ -287,7 +287,7 @@
   },
   {
     "formula": "O3",
-    "isotopologue": "O3",
+    "isotopologue": "(16)O3",
     "name": "Ozone",
     "electronic_state": "X 1A1",
     "source_type": "computation",
@@ -345,7 +345,7 @@
   },
   {
     "formula": "O3",
-    "isotopologue": "O3",
+    "isotopologue": "(16)O3",
     "name": "Ozone",
     "electronic_state": "X 1A1",
     "source_type": "computation",
@@ -403,7 +403,7 @@
   },
   {
     "formula": "O3",
-    "isotopologue": "O3",
+    "isotopologue": "(16)O3",
     "name": "Ozone",
     "electronic_state": "X 1A1",
     "source_type": "computation",
@@ -461,7 +461,7 @@
   },
   {
     "formula": "O3",
-    "isotopologue": "O3",
+    "isotopologue": "(16)O3",
     "name": "Ozone",
     "electronic_state": "X 1A1",
     "source_type": "computation",

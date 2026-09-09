@@ -168,5 +168,237 @@
         }
       }
     ]
+  },
+  {
+    "formula": "H2O",
+    "isotopologue": "H2O",
+    "name": "Water",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "SOS-MP2",
+      "basis_set": "def2-TZVPD",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 26.944907,
+          "B": 14.379435,
+          "C": 9.375891
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 3787.213282,
+        "anharmonic": 3672.636577,
+        "rotational_constants": {
+          "A": 26.944755,
+          "B": 14.379449,
+          "C": 9.375879
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1642.084576,
+        "anharmonic": 1581.022621,
+        "rotational_constants": {
+          "A": 26.873657,
+          "B": 14.280184,
+          "C": 9.325029
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 3906.101516,
+        "anharmonic": 3715.852294,
+        "rotational_constants": {
+          "A": 25.093698,
+          "B": 13.984616,
+          "C": 8.980063
+        }
+      }
+    ]
+  },
+  {
+    "formula": "H2O",
+    "isotopologue": "H2O",
+    "name": "Water",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "EDF2",
+      "basis_set": "aug-PC-2",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 27.754326,
+          "B": 14.399891,
+          "C": 9.480885
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 3823.52958,
+        "anharmonic": 3709.0599,
+        "rotational_constants": {
+          "A": 27.754657,
+          "B": 14.39986,
+          "C": 9.48091
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1620.323197,
+        "anharmonic": 1556.401071,
+        "rotational_constants": {
+          "A": 27.846784,
+          "B": 14.299199,
+          "C": 9.447797
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 3928.83925,
+        "anharmonic": 3734.002299,
+        "rotational_constants": {
+          "A": 25.804926,
+          "B": 13.994182,
+          "C": 9.073541
+        }
+      }
+    ]
+  },
+  {
+    "formula": "H2O",
+    "isotopologue": "H2O",
+    "name": "Water",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "PBE0",
+      "basis_set": "def2-TZVPD",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 27.495522,
+          "B": 14.430804,
+          "C": 9.463803
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 3850.240996,
+        "anharmonic": 3739.884898,
+        "rotational_constants": {
+          "A": 27.495741,
+          "B": 14.430783,
+          "C": 9.46382
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1630.926806,
+        "anharmonic": 1568.22337,
+        "rotational_constants": {
+          "A": 27.569616,
+          "B": 14.336742,
+          "C": 9.431945
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 3954.444468,
+        "anharmonic": 3767.135867,
+        "rotational_constants": {
+          "A": 25.638448,
+          "B": 14.038153,
+          "C": 9.071252
+        }
+      }
+    ]
+  },
+  {
+    "formula": "H2O",
+    "isotopologue": "H2O",
+    "name": "Water",
+    "electronic_state": "X 1A1",
+    "source_type": "computation",
+    "computation_metadata": {
+      "method": "B97",
+      "basis_set": "def2-TZVPD",
+      "software": "Prometheus"
+    },
+    "vibrational_modes": [
+      {
+        "mode_id": 0,
+        "label": "Ground state",
+        "harmonic": null,
+        "anharmonic": null,
+        "rotational_constants": {
+          "A": 27.29847,
+          "B": 14.39459,
+          "C": 9.424837
+        }
+      },
+      {
+        "mode_id": 1,
+        "label": "Symmetric stretch",
+        "harmonic": 3820.223444,
+        "anharmonic": 3709.181655,
+        "rotational_constants": {
+          "A": 27.298532,
+          "B": 14.394584,
+          "C": 9.424841
+        }
+      },
+      {
+        "mode_id": 2,
+        "label": "Bend",
+        "harmonic": 1631.791488,
+        "anharmonic": 1569.422688,
+        "rotational_constants": {
+          "A": 27.346531,
+          "B": 14.29888,
+          "C": 9.389384
+        }
+      },
+      {
+        "mode_id": 3,
+        "label": "Asymmetric stretch",
+        "harmonic": 3922.56856,
+        "anharmonic": 3734.31267,
+        "rotational_constants": {
+          "A": 25.436212,
+          "B": 13.99901,
+          "C": 9.029537
+        }
+      }
+    ]
   }
 ]

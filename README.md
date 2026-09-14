@@ -35,6 +35,7 @@ An open, automated database of rotational and vibrational spectroscopic data for
 
 
 ### Benchmark Distributions
+
 | :---: | :---: |
 | ![Vibrational Boxplot](vib_method_boxplot.png) | ![Rotational Boxplot](rot_method_boxplot.png) |
 

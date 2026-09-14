@@ -29,7 +29,7 @@ An open, automated database of rotational and vibrational spectroscopic data for
 │   └── ...
 └── .github/
     └── workflows/
-        ├── benchmark.yml # Automated build of benchmark data (daily) 
+        ├── benchmark.yml # Automated build of benchmark data (weekly) 
         └── deploy.yml    # Automated build & deployment pipeline
 ```
 

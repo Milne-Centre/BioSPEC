@@ -29,4 +29,16 @@ An open, automated database of rotational and vibrational spectroscopic data for
 │   └── ...
 └── .github/
     └── workflows/
+        ├── benchmark.yml # Automated build of benchmark data (daily) 
         └── deploy.yml    # Automated build & deployment pipeline
+
+
+
+### Benchmark Distributions
+
+| Vibrational Frequencies ($\nu_0$) | Rotational Constants ($A, B, C$) |
+| :---: | :---: |
+| ![Vibrational Boxplot](vib_method_boxplot.png) | ![Rotational Boxplot](rot_method_boxplot.png) |
+
+### Top Performing Methods Overall
+![Top Method Histograms](best_method_histograms.png)

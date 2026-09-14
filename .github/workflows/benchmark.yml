@@ -32,5 +32,5 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add summary_stats.json method_boxplots.png best_method_histograms.png
+        git add summary_stats.json vib_method_boxplot.png rot_method_boxplot.png best_method_histograms.png
         git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update BioSPEC benchmark plots [skip ci]" && git push)

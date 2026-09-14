@@ -38,7 +38,7 @@ An open, automated database of rotational and vibrational spectroscopic data for
 
 | Vibrational Frequencies ($\nu_0$) | Rotational Constants ($A, B, C$) |
 | :---: | :---: |
-| ![Vibrational Boxplot](vib_method_boxplot.png) | ![Rotational Boxplot](rot_method_boxplot.png) |
+| <img src="vib_method_boxplot.png" width="450"> | <img src="rot_method_boxplot.png" width="450"> |
 
 ### Top Performing Methods Overall
 ![Top Method Histograms](best_method_histograms.png)

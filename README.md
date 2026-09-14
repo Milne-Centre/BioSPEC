@@ -36,8 +36,6 @@ An open, automated database of rotational and vibrational spectroscopic data for
 
 ### Benchmark Distributions
 
-| Vibrational Frequencies ($\nu_0$) | Rotational Constants ($A, B, C$) |
-| :---: | :---: |
 | ![Vibrational Boxplot](vib_method_boxplot.png) | ![Rotational Boxplot](rot_method_boxplot.png) |
 
 ### Top Performing Methods Overall
